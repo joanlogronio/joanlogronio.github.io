@@ -1,0 +1,136 @@
+*{
+    border: box-sizing;
+}
+
+body, html {
+    height: 100%;
+}
+
+.navbar{
+  font-style: arial;
+}
+
+.flex{
+  color:black;
+  text-decoration: none;
+}
+
+.d-flex{
+  font-style: arial;
+}
+
+/* banner image */
+.banner-image {
+  /* linear-gradient to add a darken background effect to the image*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("dog.jpg");
+
+  /* banner-image height */
+  height: 80%;
+
+  /* Position the image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* text of the image */
+.banner-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: moccasin;
+}
+
+
+/* footer */
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: goldenrod;
+  font-family: Arial;
+}
+
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 12px;
+}
+
+/* .footer-content h3 {
+  font-size: 1. 8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+} */
+
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.socials li{
+  margin: 0 10px;
+}
+
+.socials a{
+  text-decoration: none;
+  color: black;
+}
+
+.socials a i {
+  font-size: 1.1rem;
+}
+
+.social a:hover i{
+  color: white;
+}
+
+.footer-bottom{
+  text-align: center;
+}
+
+@media screen and (max-width:768px){
+  [class*="col-"]{
+    width: 100%;
+  }
+}
+
+/* .bi {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.bi:hover {
+  opacity: 0.7;
+}
+    
+
+Facebook
+.bi-facebook {
+  background: #3B5998;
+  color: white;
+}
+   

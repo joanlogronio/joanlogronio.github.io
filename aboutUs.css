@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, 
+body {
+    height: 100%;
+}
+
+
+.about-1{
+    margin: 30px;
+    padding: 5px;
+}
+.about-1 h1 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.about-1 p {
+    text-align: center;
+    padding: 3px;
+    color: black;
+
+}
+.about-item{
+    margin-bottom: 20px;
+    margin-top: 40px;
+    background-color: white;
+    padding: 80px,30px;
+    box-shadow: 0 0 9px rgba(0,0,0 .6);
+}
+
+.about-item i{
+  font-size: 30px;
+  margin: 0;
+}
+
+.about-item h3{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.about-item hr{
+  width: 46px;
+  height: 3px;
+  background-color: #5fbff9;
+  margin: 0 auto;
+  border: none;
+}
+
+.about-item p{
+  margin-top: 20px;
+}
+
+.about-item:hover{
+  background-color: goldenrod;
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p{
+  color: #fff;
+}
+
+.about-item:hover hr{
+  background-color: #fff;
+}
+
+.about-item:hover i{
+  transform: translateY(-20px);
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover hr{
+  transition: all 400 ms ease-in-out;
+}
+
+footer{
+  background-color: goldenrod;
+  padding: 20px;
+  color: #fff;
+  height: 100%;
+
+}
+
+.flex{
+  color:black;
+  text-decoration: none;
+}
+
+
+@media screen and (max-width:768px){
+  [class*="col-"]{
+    width: 100%;
+  }
+}
+
+
+
